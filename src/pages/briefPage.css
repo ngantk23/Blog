@@ -1,0 +1,87 @@
+.brief-navbar {
+    background-color: rgb(233, 232, 232);
+    padding: 15px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.brief-navbar::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    float: left;
+    position: relative;
+    padding-right: 30px;
+}
+
+.logo::after {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 25px;
+    width: 1px;
+    background-color: black;
+    top: 7px;
+    right: 0px;
+}
+
+.logo-img {
+    width: 35px;
+    /* max-width: 100%; */
+    margin-right: 15px;
+}
+
+.logo-text {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.btn-container{
+    float: right;
+}
+.login-btn, .logout-btn{
+    /* background-color: rgb(255, 132, 0); */
+    color:rgb(77, 72, 72);
+    font-size: 17px;
+    font-weight: 600;
+    padding:0;
+    padding-top: 5px;
+    cursor: pointer;
+    transition: all .1s;
+}
+.login-btn:hover, .logout-btn:hover{
+    color: rgb(112, 108, 108);;
+}
+
+/* ----brief content */
+.brief-content{
+    width: 890px;
+    margin: 40px auto;
+    display: flex;
+}
+.brief-left{
+    width: 35%;
+}
+.brief-right{
+    width: 65%;
+    padding-top: 50px;
+    line-height: 1.7;
+    font-size: 15px;
+    font-weight: 400;
+}
+.username{
+    font-size: 20px;
+    font-weight: 600;
+}
+.user-avt{
+    width: 200px;
+    margin-top: 30px;
+
+}
+.avt-img{
+    max-width: 100%;
+}
